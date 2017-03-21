@@ -17,5 +17,88 @@ img.logo {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+	margin-bottom: 30px; 
 }
 
+.signup_form {
+	background-color: white;
+	width: 400px;
+	height: auto;
+	padding: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	/*text-align: center;*/
+}
+
+.signup_form fieldset {
+	border: none;
+}
+
+.signup_form legend {
+	text-align: center;
+	margin-bottom: 45px;
+	font-weight: 300;
+	font-size: 35px;
+	color: #565656;
+}
+
+.signup_form input {
+	background: #fcfcfc;
+    border: 2px solid #e7e7e7;
+    margin: 20px auto;
+    padding: 15px;
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+    font-size: 18px;
+    transition: opacity 0.4s;
+    text-align: left;3
+    height: auto;
+}
+
+.signup_form button {
+	width: 100%;
+	padding: 15px;
+	color: white;
+    background: #15CD72;
+    border: 0;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 0;
+    height: auto;
+}
+
+.signup_form button:hover {
+	background-color: #0CB863;
+	transition: background 0.1s;
+}
+
+.signup_form p {
+	margin: 0;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.signup_form a {
+	text-decoration: none;
+	color: #999;
+	border-bottom: 1px solid #bbb;
+}
+
+.signup_form a:hover {
+	border-color: #999;
+	color: #777;
+}
+
+.footer {
+	text-align: center;
+	font-weight: 900;
+	color: white;
+}
+
+.footer a {
+	color: white;
+}
